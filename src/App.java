@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        String fileName = args[0];
+        String fileName = "C:\\Users\\Shamindi Nishara\\Documents\\rpal20\\test.txt";
         AST ast = null;
         ast = buildAST(fileName, true);
         // ast.print();
